@@ -14,7 +14,7 @@ A modern React + TypeScript application for exploring GitHub users and repositor
 - **Loading States**: Comprehensive loading spinners and error handling
 - **Modern UI**: Clean, modern interface with Tailwind CSS
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14 (Pages Router)
 - **Language**: TypeScript
@@ -24,7 +24,11 @@ A modern React + TypeScript application for exploring GitHub users and repositor
 - **UI Components**: Custom React components
 - **Hooks**: Custom hooks for GitHub API and local storage
 
-## 📋 Requirements Met
+## Screenshots
+
+![Some Pages](./public/screenshots/githubur-screenshots.jpg)
+
+## Requirements Met
 
 ✅ **Core Features**:
 - Get current user profile and repositories
@@ -36,7 +40,7 @@ A modern React + TypeScript application for exploring GitHub users and repositor
 - Debounced input (500ms delay)
 - Sort/filter repositories by stars, language, updated date
 - Store search history in localStorage
-- Custom hooks (`useGitHubUser`, `useRepos`, `useDebounce`, `useLocalStorage`)
+- Custom hooks (`useRepos`, `useDebounce`, `useLocalStorage`)
 - Responsive design for desktop and mobile
 
 ✅ **Technical Requirements**:
@@ -105,6 +109,7 @@ A modern React + TypeScript application for exploring GitHub users and repositor
 │   ├── repositories.tsx
 │   └── search.tsx
 ├── public/
+│   ├── screenshots/
 │   ├── favicon.ico
 │   ├── file.svg
 │   ├── globe.svg

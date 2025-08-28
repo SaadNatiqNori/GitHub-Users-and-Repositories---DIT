@@ -20,6 +20,7 @@ const UserCard: React.FC<UserCardProps> = ({ user, onClick }) => {
                             className="md:h-20 h-16 w-16 md:w-20 rounded-full border border-gray-200"
                             width={80}
                             height={80}
+                            priority={false}
                         />
                         <div className="absolute -bottom-1 -right-1 h-6 w-6 bg-green-500 border-2 border-white rounded-full"></div>
                     </div>

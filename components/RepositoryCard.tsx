@@ -127,6 +127,7 @@ const RepositoryCard: React.FC<RepositoryCardProps> = ({ repository }) => {
                                         title={`${contributor?.login} (${contributor?.contributions} contributions)`}
                                         width={24}
                                         height={24}
+                                        priority={false}
                                     />
                                 ))}
                                 {contributors.length > 5 && (
