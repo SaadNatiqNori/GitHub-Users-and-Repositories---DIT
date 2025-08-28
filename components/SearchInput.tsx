@@ -24,6 +24,7 @@ const SearchInput: React.FC<SearchInputProps> = ({
     };
 
     // For debounce purposes
+    // eslint-disable-next-line react-hooks/exhaustive-depsgit a
     useEffect(() => {
         if (debouncedQuery.trim()) {
             onSearch(debouncedQuery.trim());

@@ -106,7 +106,7 @@ const Profile: React.FC = () => {
                                         <h3 className="text-sm font-medium text-blue-900 mb-3">Setup Steps:</h3>
                                         <ol className="list-decimal list-inside space-y-2 text-sm text-blue-800">
                                             <li>Go to <a href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener noreferrer" className="underline hover:no-underline font-medium">GitHub Settings → Developer settings → Personal access tokens</a></li>
-                                            <li>Click "Generate new token (classic)"</li>
+                                            <li>Click &quot;Generate new token (classic)&quot;</li>
                                             <li>Give it a name and select scopes (at minimum: read:user, repo)</li>
                                             <li>Add the token to your environment variables as NEXT_PUBLIC_GITHUB_TOKEN</li>
                                         </ol>
@@ -222,7 +222,7 @@ const Profile: React.FC = () => {
                             ) : (
                                 <>
                                     {repositories.length > 0 ? (
-                                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                             {repositories.map((repo) => (
                                                 <React.Fragment key={repo.id}>
                                                     <RepositoryCard repository={repo} />
@@ -237,7 +237,7 @@ const Profile: React.FC = () => {
                                             </svg>
                                             <h3 className="mt-4 text-lg font-medium text-gray-900">No repositories found</h3>
                                             <p className="mt-2 text-gray-600">
-                                                You don't have any public repositories yet.
+                                                You don&apos;t have any public repositories yet.
                                             </p>
                                             <div className="mt-6">
                                                 <a

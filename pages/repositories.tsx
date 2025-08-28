@@ -176,7 +176,7 @@ const Repositories: React.FC = () => {
                                         </span>
                                         {lastQueryRef.current && (
                                             <span className="text-sm text-gray-500">
-                                                for "{lastQueryRef.current}"
+                                                for &quot;{lastQueryRef.current}&quot;
                                             </span>
                                         )}
                                     </div>
@@ -251,7 +251,7 @@ const Repositories: React.FC = () => {
                                 </svg>
                                 <h3 className="mt-4 text-lg font-medium text-gray-900">No Repositories Found</h3>
                                 <p className="mt-2 text-gray-600 max-w-md mx-auto">
-                                    We couldn't find any repositories matching "{lastQueryRef.current}". Try different keywords or check your spelling.
+                                    We couldn&apos;t find any repositories matching &quot;{lastQueryRef.current}&quot;. Try different keywords or check your spelling.
                                 </p>
                                 <div className="mt-6">
                                     <button

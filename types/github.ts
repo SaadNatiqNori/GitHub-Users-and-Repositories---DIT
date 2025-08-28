@@ -81,6 +81,7 @@ export interface Contributor {
     contributions: number;
 }
 
+
 // Responses & Props
 export interface GitHubSearchResponse {
     total_count: number;

@@ -6,7 +6,7 @@ import { AppDispatch, RootState } from '@/store';
 // Slices
 import { fetchRepoContributors } from '@/store/slices/repoSlice';
 // Types
-import { RepositoryCardProps } from '@/types/github';
+import { Contributor, RepositoryCardProps } from '@/types/github';
 // Helpers
 import { formatDate, getLanguageColor } from '@/constants/helpers';
 
@@ -118,7 +118,7 @@ const RepositoryCard: React.FC<RepositoryCardProps> = ({ repository }) => {
                         <div className="flex items-center space-x-3">
                             <span className="text-sm font-medium text-gray-700">Contributors</span>
                             <div className="flex -space-x-1">
-                                {contributors.slice(0, 5).map((contributor: { id: React.Key | null | undefined; avatar_url: string | undefined; login: string | undefined; contributions: any; }) => (
+                                {contributors.slice(0, 5).map((contributor: Contributor) => (
                                     <Image
                                         key={contributor?.id}
                                         src={contributor?.avatar_url || ''}
