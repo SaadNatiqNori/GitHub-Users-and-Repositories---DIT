@@ -27,6 +27,7 @@ A modern React + TypeScript application for exploring GitHub users and repositor
 ## Screenshots
 
 ![Some Pages](./public/screenshots/githubur-screenshots.jpg)
+![Performance](./public/screenshots/performance.png)
 
 ## Requirements Met
 
